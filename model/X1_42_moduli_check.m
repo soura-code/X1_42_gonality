@@ -66,7 +66,18 @@ assert not IsZero(14*P);                          // order does not divide 14
 assert not IsZero(6*P);                           // order does not divide 6
 printf "B: E/F is an elliptic curve and (0,0) has exact order 42  (%o s)\n", Cputime(t0);
 
-// ---------------- C ----------------------------------------------------------------
+// ---------------- B': Sutherland's inverse map recovers x and y --------------------
+//   x = (s - r)/(rs - 2r + 1),   y = (rs - 2r + 1)/(s^2 - s - r + 1)
+// so F = F_5(x,y) = F_5(r,s) = F_5(b,c)  (hypothesis (b) of Lemma 2.4, verified in Lemma 2.5)
+d1 := r*s - 2*r + 1;  d2 := s^2 - s - r + 1;
+assert d1 ne 0 and d2 ne 0;
+assert (s - r)/d1 eq X;
+assert d1/d2 eq Y;
+assert c ne 0 and b ne c;
+assert b/c eq r and c^2/(b - c) eq s;
+printf "B': inverse map recovers x, y; F = F_5(b,c)  (%o s)\n", Cputime(t0);
+
+// ---------------- C (extra check, not needed for the proof) ------------------------
 jE := jInvariant(E);
 assert not IsConstant(jE);
 dj := Degree(PoleDivisor(Divisor(jE)));
