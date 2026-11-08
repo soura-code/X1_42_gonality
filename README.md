@@ -31,6 +31,7 @@ Expected output of `X1_42_moduli_check.m`:
 ```
 A: exact constant field F_5, genus 25
 B: E/F is an elliptic curve and (0,0) has exact order 42
+B': inverse map recovers x, y; F = F_5(b,c)
 C: deg j(E) = 576
 ALL CHECKS PASSED: F is the function field of X_1(42) over F_5.
 ```
