@@ -12,7 +12,6 @@
 
 ## To be added (not yet uploaded)
 
-- `X1_42_orbit_reps_d1.txt`.
 - `X1_42_orbits_d<v>.txt` (v = 1..5) — the full orbits.
 - `X1_42_split_d11/` — job files, `status_job*.txt`, `hits_job*.txt` (degree-12 functions) and the
   output of `X1_42_split_check.py` for the run reported in the paper.
