@@ -1,0 +1,116 @@
+X1_42_ORBITREPS v1 DEG 5 GEN 4 ORBITS 54
+# One representative per orbit of <sigma_4> on the places of degree 5.
+# REP k size i | chart ch | w c:i:j ... | g1 | g2 | m | A | C | shared n
+#   i = index in Places(AFF,5); chart 1..4 = (u1,u2) = (t,y),(1/t,y),(t,1/y),(1/t,1/y);
+#   w = sum c*u1^i*u2^j; m = min. poly of w(P); u1(P) = A(w(P)), u2(P) = C(w(P));
+#   g1, g2 = min. polys of u1(P), u2(P); coefficients constant term first;
+#   shared = number of places of degree 5 at this point (1 = point determines the place).
+# orbit 1: t = 4,  y = w,  where w = 1*(y) satisfies w^5 + 2*w^4 + w^2 + 4*w + 1 = 0
+REP 1 12 1 | chart 1 | w 1:0:1 | g1 1 1 | g2 1 4 1 0 2 1 | m 1 4 1 0 2 1 | A 4 0 0 0 0 | C 0 1 0 0 0 | shared 1
+# orbit 2: t = w,  y = 2*w^3 + 2*w^2 + 3*w + 1,  where w = 1*(t) satisfies w^5 + 4*w + 3 = 0
+REP 2 12 2 | chart 1 | w 1:1:0 | g1 3 4 0 0 0 1 | g2 2 4 4 3 0 1 | m 3 4 0 0 0 1 | A 0 1 0 0 0 | C 1 3 2 2 0 | shared 1
+# orbit 3: t = w,  y = 2*w^3 + w + 1,  where w = 1*(t) satisfies w^5 + 3*w^3 + w + 1 = 0
+REP 3 12 3 | chart 1 | w 1:1:0 | g1 1 1 0 3 0 1 | g2 3 0 2 2 0 1 | m 1 1 0 3 0 1 | A 0 1 0 0 0 | C 1 1 0 2 0 | shared 1
+# orbit 4: t = w,  y = 4*w^4 + 2*w^3 + 3*w^2 + 4*w + 1,  where w = 1*(t) satisfies w^5 + 3*w^3 + w + 1 = 0
+REP 4 12 4 | chart 1 | w 1:1:0 | g1 1 1 0 3 0 1 | g2 1 0 2 1 2 1 | m 1 1 0 3 0 1 | A 0 1 0 0 0 | C 1 4 3 2 4 | shared 1
+# orbit 5: t = w,  y = 2*w^3 + 2*w + 1,  where w = 1*(t) satisfies w^5 + 4*w^2 + 4*w + 2 = 0
+REP 5 12 5 | chart 1 | w 1:1:0 | g1 2 4 4 0 0 1 | g2 3 0 3 0 4 1 | m 2 4 4 0 0 1 | A 0 1 0 0 0 | C 1 2 0 2 0 | shared 1
+# orbit 6: t = w,  y = w^3 + w^2 + 4*w + 1,  where w = 1*(t) satisfies w^5 + 3*w^3 + 4*w^2 + 1 = 0
+REP 6 12 6 | chart 1 | w 1:1:0 | g1 1 0 4 3 0 1 | g2 2 1 4 3 3 1 | m 1 0 4 3 0 1 | A 0 1 0 0 0 | C 1 4 1 1 0 | shared 1
+# orbit 7: t = w,  y = 2*w^3 + 2*w^2,  where w = 1*(t) satisfies w^5 + 2*w^4 + 3*w^3 + 3*w + 3 = 0
+REP 7 12 7 | chart 1 | w 1:1:0 | g1 3 3 0 3 2 1 | g2 4 2 1 0 4 1 | m 3 3 0 3 2 1 | A 0 1 0 0 0 | C 0 0 2 2 0 | shared 1
+# orbit 8: t = w,  y = 2*w^4 + 2*w^3 + w^2 + 3*w + 2,  where w = 1*(t) satisfies w^5 + 2*w^3 + 2*w^2 + 4*w + 2 = 0
+REP 8 12 8 | chart 1 | w 1:1:0 | g1 2 4 2 2 0 1 | g2 1 2 2 4 2 1 | m 2 4 2 2 0 1 | A 0 1 0 0 0 | C 2 3 1 2 2 | shared 1
+# orbit 9: t = w,  y = 3*w^4 + w + 3,  where w = 1*(t) satisfies w^5 + w^4 + 4*w^3 + 4*w^2 + 2*w + 4 = 0
+REP 9 12 9 | chart 1 | w 1:1:0 | g1 4 2 4 4 1 1 | g2 4 4 1 0 1 1 | m 4 2 4 4 1 1 | A 0 1 0 0 0 | C 3 1 0 0 3 | shared 1
+# orbit 10: t = w,  y = 4*w^4 + w^2 + 3,  where w = 1*(t) satisfies w^5 + 4*w^4 + 3*w^3 + w^2 + w + 3 = 0
+REP 10 12 10 | chart 1 | w 1:1:0 | g1 3 1 1 3 4 1 | g2 2 0 0 1 4 1 | m 3 1 1 3 4 1 | A 0 1 0 0 0 | C 3 0 1 0 4 | shared 1
+# orbit 11: t = w,  y = 2*w^3 + 2*w^2 + w + 3,  where w = 1*(t) satisfies w^5 + 4*w^4 + 3*w^3 + w^2 + w + 3 = 0
+REP 11 12 12 | chart 1 | w 1:1:0 | g1 3 1 1 3 4 1 | g2 1 3 3 4 1 1 | m 3 1 1 3 4 1 | A 0 1 0 0 0 | C 3 1 2 2 0 | shared 1
+# orbit 12: t = w,  y = 4*w^4 + 3*w^2 + 3*w + 1,  where w = 1*(t) satisfies w^5 + 4*w^4 + w^3 + 3*w^2 + 2*w + 1 = 0
+REP 12 12 13 | chart 1 | w 1:1:0 | g1 1 2 3 1 4 1 | g2 4 2 0 1 4 1 | m 1 2 3 1 4 1 | A 0 1 0 0 0 | C 1 3 3 0 4 | shared 1
+# orbit 13: t = w,  y = 4*w^4 + 4*w^3 + 3,  where w = 1*(t) satisfies w^5 + 3*w^4 + 3*w^2 + 4*w + 3 = 0
+REP 13 12 14 | chart 1 | w 1:1:0 | g1 3 4 3 0 3 1 | g2 2 1 1 3 0 1 | m 3 4 3 0 3 1 | A 0 1 0 0 0 | C 3 0 0 4 4 | shared 1
+# orbit 14: t = w,  y = 3*w^4 + 2*w^3 + 3*w^2 + w + 1,  where w = 1*(t) satisfies w^5 + 2*w^4 + 2*w^2 + w + 2 = 0
+REP 14 12 15 | chart 1 | w 1:1:0 | g1 2 1 2 0 2 1 | g2 2 1 0 1 4 1 | m 2 1 2 0 2 1 | A 0 1 0 0 0 | C 1 1 3 2 3 | shared 1
+# orbit 15: t = w,  y = 4*w^3 + 3*w^2 + 4*w,  where w = 1*(t) satisfies w^5 + 3*w^3 + w^2 + 1 = 0
+REP 15 12 17 | chart 1 | w 1:1:0 | g1 1 0 1 3 0 1 | g2 1 1 0 3 0 1 | m 1 0 1 3 0 1 | A 0 1 0 0 0 | C 0 4 3 4 0 | shared 1
+# orbit 16: t = w,  y = 4*w^2 + 1,  where w = 1*(t) satisfies w^5 + w^4 + w^3 + 2*w^2 + 3*w + 4 = 0
+REP 16 12 18 | chart 1 | w 1:1:0 | g1 4 3 2 1 1 1 | g2 4 4 1 2 4 1 | m 4 3 2 1 1 1 | A 0 1 0 0 0 | C 1 0 4 0 0 | shared 1
+# orbit 17: t = w,  y = w^4 + 4*w^3 + 3*w^2 + w + 4,  where w = 1*(t) satisfies w^5 + w^4 + w^3 + 3 = 0
+REP 17 12 21 | chart 1 | w 1:1:0 | g1 3 0 0 1 1 1 | g2 1 1 1 0 2 1 | m 3 0 0 1 1 1 | A 0 1 0 0 0 | C 4 1 3 4 1 | shared 1
+# orbit 18: t = w,  y = 3*w^4 + 2*w^3 + 4*w^2 + 1,  where w = 1*(t) satisfies w^5 + 3*w^4 + 3*w^3 + 2*w^2 + 4*w + 1 = 0
+REP 18 12 22 | chart 1 | w 1:1:0 | g1 1 4 2 3 3 1 | g2 3 3 1 0 3 1 | m 1 4 2 3 3 1 | A 0 1 0 0 0 | C 1 0 4 2 3 | shared 1
+# orbit 19: t = w,  y = 4*w^4 + 4*w^3 + 4*w + 3,  where w = 1*(t) satisfies w^5 + 3*w^3 + w^2 + w + 1 = 0
+REP 19 12 24 | chart 1 | w 1:1:0 | g1 1 1 1 3 0 1 | g2 2 4 4 0 1 1 | m 1 1 1 3 0 1 | A 0 1 0 0 0 | C 3 4 0 4 4 | shared 1
+# orbit 20: t = w,  y = 4*w^4 + 3*w^3 + 2*w^2 + 3*w,  where w = 1*(t) satisfies w^5 + w^4 + 2*w^3 + 3*w + 2 = 0
+REP 20 12 25 | chart 1 | w 1:1:0 | g1 2 3 0 2 1 1 | g2 4 3 4 1 3 1 | m 2 3 0 2 1 1 | A 0 1 0 0 0 | C 0 3 2 3 4 | shared 1
+# orbit 21: t = w,  y = 4*w^4 + 4*w^2 + 3*w + 1,  where w = 1*(t) satisfies w^5 + w^3 + 3*w^2 + w + 3 = 0
+REP 21 12 26 | chart 1 | w 1:1:0 | g1 3 1 3 1 0 1 | g2 3 2 0 2 1 1 | m 3 1 3 1 0 1 | A 0 1 0 0 0 | C 1 3 4 0 4 | shared 1
+# orbit 22: t = w,  y = w^4 + 4*w^3 + 2*w^2 + w + 4,  where w = 1*(t) satisfies w^5 + w^4 + 3*w^3 + 3*w^2 + 3*w + 2 = 0
+REP 22 12 27 | chart 1 | w 1:1:0 | g1 2 3 3 3 1 1 | g2 3 2 1 1 3 1 | m 2 3 3 3 1 1 | A 0 1 0 0 0 | C 4 1 2 4 1 | shared 1
+# orbit 23: t = w,  y = 3*w^4 + 4*w^3 + 4*w^2 + 3*w + 1,  where w = 1*(t) satisfies w^5 + 3*w^4 + 2*w^3 + w^2 + 2 = 0
+REP 23 12 29 | chart 1 | w 1:1:0 | g1 2 0 1 2 3 1 | g2 3 1 2 1 0 1 | m 2 0 1 2 3 1 | A 0 1 0 0 0 | C 1 3 4 4 3 | shared 1
+# orbit 24: t = w,  y = 2*w^4 + 3*w^3 + 4*w^2 + w,  where w = 1*(t) satisfies w^5 + 3*w^4 + 2*w^3 + w^2 + 2 = 0
+REP 24 12 30 | chart 1 | w 1:1:0 | g1 2 0 1 2 3 1 | g2 1 3 4 1 1 1 | m 2 0 1 2 3 1 | A 0 1 0 0 0 | C 0 1 4 3 2 | shared 1
+# orbit 25: t = w,  y = 4*w^4 + 2*w^3 + 4*w^2 + 1,  where w = 1*(t) satisfies w^5 + 3*w^2 + 3*w + 4 = 0
+REP 25 12 31 | chart 1 | w 1:1:0 | g1 4 3 3 0 0 1 | g2 1 0 4 4 1 1 | m 4 3 3 0 0 1 | A 0 1 0 0 0 | C 1 0 4 2 4 | shared 1
+# orbit 26: t = w,  y = 4*w^3 + 2*w + 2,  where w = 1*(t) satisfies w^5 + 3*w^2 + 3*w + 4 = 0
+REP 26 12 32 | chart 1 | w 1:1:0 | g1 4 3 3 0 0 1 | g2 1 1 4 0 1 1 | m 4 3 3 0 0 1 | A 0 1 0 0 0 | C 2 2 0 4 0 | shared 1
+# orbit 27: t = w,  y = 4*w^4 + 2*w^3 + 4*w^2 + 2,  where w = 1*(t) satisfies w^5 + 3*w^3 + 2*w + 2 = 0
+REP 27 12 35 | chart 1 | w 1:1:0 | g1 2 2 0 3 0 1 | g2 4 1 2 2 4 1 | m 2 2 0 3 0 1 | A 0 1 0 0 0 | C 2 0 4 2 4 | shared 1
+# orbit 28: t = w,  y = 4*w^4 + w^3 + 3*w^2 + 3*w,  where w = 1*(t) satisfies w^5 + 3*w^3 + 2*w + 2 = 0
+REP 28 12 36 | chart 1 | w 1:1:0 | g1 2 2 0 3 0 1 | g2 1 3 0 4 3 1 | m 2 2 0 3 0 1 | A 0 1 0 0 0 | C 0 3 3 1 4 | shared 1
+# orbit 29: t = w,  y = 3*w^4 + 2*w^3 + 2,  where w = 1*(t) satisfies w^5 + 2*w^4 + w^3 + 2*w^2 + 1 = 0
+REP 29 12 40 | chart 1 | w 1:1:0 | g1 1 0 2 1 2 1 | g2 2 3 3 0 2 1 | m 1 0 2 1 2 1 | A 0 1 0 0 0 | C 2 0 0 2 3 | shared 1
+# orbit 30: t = w,  y = 3*w^4 + 4*w^3 + 3*w^2 + 2*w + 1,  where w = 1*(t) satisfies w^5 + 2*w^4 + w^3 + 4*w^2 + 2*w + 2 = 0
+REP 30 12 42 | chart 1 | w 1:1:0 | g1 2 2 4 1 2 1 | g2 1 3 1 0 1 1 | m 2 2 4 1 2 1 | A 0 1 0 0 0 | C 1 2 3 4 3 | shared 1
+# orbit 31: t = w,  y = 4*w^3 + w^2 + 2*w + 1,  where w = 1*(t) satisfies w^5 + 2*w^4 + w^3 + 4*w^2 + 2*w + 2 = 0
+REP 31 12 43 | chart 1 | w 1:1:0 | g1 2 2 4 1 2 1 | g2 2 0 3 4 3 1 | m 2 2 4 1 2 1 | A 0 1 0 0 0 | C 1 2 1 4 0 | shared 1
+# orbit 32: t = w,  y = 3*w^3 + 3*w^2 + 3*w + 1,  where w = 1*(t) satisfies w^5 + 2*w^4 + w^3 + 4*w^2 + 4*w + 1 = 0
+REP 32 12 44 | chart 1 | w 1:1:0 | g1 1 4 4 1 2 1 | g2 4 3 0 4 2 1 | m 1 4 4 1 2 1 | A 0 1 0 0 0 | C 1 3 3 3 0 | shared 1
+# orbit 33: t = w,  y = 4*w^3 + 2*w^2 + 3*w + 2,  where w = 1*(t) satisfies w^5 + w^4 + 3*w^3 + 4*w^2 + w + 2 = 0
+REP 33 12 45 | chart 1 | w 1:1:0 | g1 2 1 4 3 1 1 | g2 2 2 4 1 4 1 | m 2 1 4 3 1 1 | A 0 1 0 0 0 | C 2 3 2 4 0 | shared 1
+# orbit 34: t = w,  y = 2*w^4 + 4*w^3 + 4*w^2 + w + 2,  where w = 1*(t) satisfies w^5 + w^4 + w^3 + 4*w^2 + 1 = 0
+REP 34 12 46 | chart 1 | w 1:1:0 | g1 1 0 4 1 1 1 | g2 1 1 4 0 0 1 | m 1 0 4 1 1 1 | A 0 1 0 0 0 | C 2 1 4 4 2 | shared 1
+# orbit 35: t = w,  y = 2*w^4 + 3*w^3 + 4*w + 1,  where w = 1*(t) satisfies w^5 + 4*w^4 + 2*w^3 + 4*w^2 + 4*w + 3 = 0
+REP 35 12 49 | chart 1 | w 1:1:0 | g1 3 4 4 2 4 1 | g2 3 0 4 1 4 1 | m 3 4 4 2 4 1 | A 0 1 0 0 0 | C 1 4 0 3 2 | shared 1
+# orbit 36: t = w,  y = 4*w^4 + 2*w^3 + 4*w + 4,  where w = 1*(t) satisfies w^5 + 3*w^4 + 3*w^3 + w^2 + w + 3 = 0
+REP 36 12 52 | chart 1 | w 1:1:0 | g1 3 1 1 3 3 1 | g2 2 2 4 1 2 1 | m 3 1 1 3 3 1 | A 0 1 0 0 0 | C 4 4 0 2 4 | shared 1
+# orbit 37: t = w,  y = w^4 + 3*w^3 + 4,  where w = 1*(t) satisfies w^5 + w^4 + w^3 + 4*w + 4 = 0
+REP 37 12 55 | chart 1 | w 1:1:0 | g1 4 4 0 1 1 1 | g2 3 4 2 3 1 1 | m 4 4 0 1 1 1 | A 0 1 0 0 0 | C 4 0 0 3 1 | shared 1
+# orbit 38: t = w,  y = w^4 + 3*w^3 + 4*w^2 + w,  where w = 1*(t) satisfies w^5 + 4*w^4 + 2*w^3 + 2*w^2 + 4*w + 3 = 0
+REP 38 12 60 | chart 1 | w 1:1:0 | g1 3 4 2 2 4 1 | g2 4 2 4 1 2 1 | m 3 4 2 2 4 1 | A 0 1 0 0 0 | C 0 1 4 3 1 | shared 1
+# orbit 39: t = w,  y = 2*w^4 + 4*w^3 + 4*w^2 + 4*w + 4,  where w = 1*(t) satisfies w^5 + 4*w^4 + w^3 + w^2 + 4 = 0
+REP 39 12 62 | chart 1 | w 1:1:0 | g1 4 0 1 1 4 1 | g2 1 0 4 3 0 1 | m 4 0 1 1 4 1 | A 0 1 0 0 0 | C 4 4 4 4 2 | shared 1
+# orbit 40: t = w,  y = 3*w^4 + 3*w^3 + 3*w^2 + 4*w + 4,  where w = 1*(t) satisfies w^5 + 4*w^4 + 3*w^2 + 3*w + 3 = 0
+REP 40 12 63 | chart 1 | w 1:1:0 | g1 3 3 3 0 4 1 | g2 4 0 0 3 1 1 | m 3 3 3 0 4 1 | A 0 1 0 0 0 | C 4 4 3 3 3 | shared 1
+# orbit 41: t = w,  y = 2*w^4 + 2*w^3 + 4*w^2 + 4*w + 3,  where w = 1*(t) satisfies w^5 + w^4 + 2*w^3 + w^2 + 3*w + 3 = 0
+REP 41 12 65 | chart 1 | w 1:1:0 | g1 3 3 1 2 1 1 | g2 3 0 4 0 1 1 | m 3 3 1 2 1 1 | A 0 1 0 0 0 | C 3 4 4 2 2 | shared 1
+# orbit 42: t = w,  y = w^3 + 3*w^2 + 3,  where w = 1*(t) satisfies w^5 + 2*w^4 + 4*w^3 + 2*w + 4 = 0
+REP 42 12 67 | chart 1 | w 1:1:0 | g1 4 2 0 4 2 1 | g2 3 3 1 2 1 1 | m 4 2 0 4 2 1 | A 0 1 0 0 0 | C 3 0 3 1 0 | shared 1
+# orbit 43: t = w,  y = w^3 + w^2 + 3*w + 1,  where w = 1*(t) satisfies w^5 + 3*w^4 + 4*w^2 + 4*w + 2 = 0
+REP 43 12 69 | chart 1 | w 1:1:0 | g1 2 4 4 0 3 1 | g2 4 1 2 1 4 1 | m 2 4 4 0 3 1 | A 0 1 0 0 0 | C 1 3 1 1 0 | shared 1
+# orbit 44: t = w,  y = 4*w^4 + w^2 + 3*w + 3,  where w = 1*(t) satisfies w^5 + 3*w^4 + 4*w^2 + 4*w + 2 = 0
+REP 44 12 70 | chart 1 | w 1:1:0 | g1 2 4 4 0 3 1 | g2 4 2 1 2 3 1 | m 2 4 4 0 3 1 | A 0 1 0 0 0 | C 3 3 1 0 4 | shared 1
+# orbit 45: t = w,  y = 4*w^4 + 4*w^2 + 3*w + 2,  where w = 1*(t) satisfies w^5 + 4*w^4 + w^3 + 2*w^2 + w + 4 = 0
+REP 45 12 71 | chart 1 | w 1:1:0 | g1 4 1 2 1 4 1 | g2 3 0 4 1 3 1 | m 4 1 2 1 4 1 | A 0 1 0 0 0 | C 2 3 4 0 4 | shared 1
+# orbit 46: t = w,  y = 2*w^4 + 3*w^3 + 3*w^2 + w + 3,  where w = 1*(t) satisfies w^5 + 2*w^4 + 3*w^3 + 4*w^2 + w + 3 = 0
+REP 46 12 74 | chart 1 | w 1:1:0 | g1 3 1 4 3 2 1 | g2 3 4 2 0 1 1 | m 3 1 4 3 2 1 | A 0 1 0 0 0 | C 3 1 3 3 2 | shared 1
+# orbit 47: t = w,  y = 3*w^4 + 4*w^3 + 2*w^2 + 2*w + 2,  where w = 1*(t) satisfies w^5 + w^4 + 2*w^3 + w^2 + 4*w + 3 = 0
+REP 47 12 83 | chart 1 | w 1:1:0 | g1 3 4 1 2 1 1 | g2 1 3 1 2 3 1 | m 3 4 1 2 1 1 | A 0 1 0 0 0 | C 2 2 2 4 3 | shared 1
+# orbit 48: t = w,  y = w^4 + 2*w^2 + w + 4,  where w = 1*(t) satisfies w^5 + 2*w^4 + 2*w^2 + 4*w + 3 = 0
+REP 48 12 93 | chart 1 | w 1:1:0 | g1 3 4 2 0 2 1 | g2 2 0 2 3 3 1 | m 3 4 2 0 2 1 | A 0 1 0 0 0 | C 4 1 2 0 1 | shared 1
+# orbit 49: t = w,  y = 4*w^4 + 4*w^3 + 4*w^2 + w + 4,  where w = 1*(t) satisfies w^5 + 3*w^4 + 4*w^3 + 4*w^2 + w + 1 = 0
+REP 49 12 94 | chart 1 | w 1:1:0 | g1 1 1 4 4 3 1 | g2 4 0 2 1 4 1 | m 1 1 4 4 3 1 | A 0 1 0 0 0 | C 4 1 4 4 4 | shared 1
+# orbit 50: t = w,  y = w^4 + 2*w^3 + 4*w^2 + w + 3,  where w = 1*(t) satisfies w^5 + 4*w^4 + 2*w^3 + w^2 + 4*w + 4 = 0
+REP 50 12 99 | chart 1 | w 1:1:0 | g1 4 4 1 2 4 1 | g2 1 0 2 2 1 1 | m 4 4 1 2 4 1 | A 0 1 0 0 0 | C 3 1 4 2 1 | shared 1
+# orbit 51: t = w,  y = w^4 + w^2 + 3*w + 2,  where w = 1*(t) satisfies w^5 + w^4 + 2*w^3 + 2*w^2 + w + 2 = 0
+REP 51 12 102 | chart 1 | w 1:1:0 | g1 2 1 2 2 1 1 | g2 2 1 3 3 1 1 | m 2 1 2 2 1 1 | A 0 1 0 0 0 | C 2 3 1 0 1 | shared 1
+# orbit 52: t = w,  y = 3*w^4 + 2*w^3 + 3*w^2 + w + 4,  where w = 1*(t) satisfies w^5 + w^4 + 4 = 0
+REP 52 12 109 | chart 1 | w 1:1:0 | g1 4 0 0 0 1 1 | g2 3 1 1 3 2 1 | m 4 0 0 0 1 1 | A 0 1 0 0 0 | C 4 1 3 2 3 | shared 1
+# orbit 53: t = w,  y = 4*w^4 + w^3 + w^2 + w + 3,  where w = 1*(t) satisfies w^5 + 2*w^3 + 2*w^2 + w + 3 = 0
+REP 53 12 118 | chart 1 | w 1:1:0 | g1 3 1 2 2 0 1 | g2 1 1 2 2 4 1 | m 3 1 2 2 0 1 | A 0 1 0 0 0 | C 3 1 1 1 4 | shared 1
+# orbit 54: t = w,  y = 3*w^3 + 4*w^2 + 2*w + 2,  where w = 1*(t) satisfies w^5 + 4*w^4 + 3*w^3 + 4*w + 1 = 0
+REP 54 12 180 | chart 1 | w 1:1:0 | g1 1 4 0 3 4 1 | g2 3 1 0 0 2 1 | m 1 4 0 3 4 1 | A 0 1 0 0 0 | C 2 2 4 3 0 | shared 1
+END 54
