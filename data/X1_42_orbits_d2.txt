@@ -1,0 +1,22 @@
+X1_42_ORBITS v1 DEG 2 GEN 4 COUNT 6 ORBITS 1 CHECKSUM 2189579464212407761
+# Places of degree 2 of X1(42)/F5, numbered as in Magma's Places(AFF,2).
+# P i | coefficients (constant term first) of the polynomial of F5(t) below the place
+#       (empty = t = infinity) | key (0 = not available)
+# I i j : sigma_4 maps place i to place j
+# O k size : i_1 i_2 ... (orbit k as a cycle i, sigma(i), sigma^2(i), ...)
+# R k i : representative of orbit k (its smallest index)
+P 1 |  | 0
+P 2 | 0 1  | 436557458639144904785156280
+P 3 | 0 1  | 436557458877563484863281283
+P 4 | 4 1  | 494765127956867257812500157
+P 5 | 4 1  | 494765119552612312988281284
+P 6 | 1 4 1  | 2488377505838871043945312671
+I 1 5
+I 2 6
+I 3 4
+I 4 1
+I 5 2
+I 6 3
+O 1 6 : 1 5 2 6 3 4
+R 1 1
+END 6
