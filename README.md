@@ -12,7 +12,7 @@ All computations were run with **Magma V2.29-10** on an Intel Xeon W-2265 workst
 
 | Folder | Contents |
 |---|---|
-| `model/` | `FFFc42.txt`: Sutherland's integer model f(x,y) of X_1(42) ([source](https://math.mit.edu/~drew/FFFc42.txt)). `X1_42_moduli_check.m`: proof of Lemma 2.4 (the mod-5 model is X_1(42)/F_5, via the Tate normal form and deg j = 576). `X1_42_irreducibility_mod5.m`: absolute irreducibility of f mod 5. |
+| `model/` | `FFFc42.txt`: Sutherland's integer model f(x,y) of X_1(42) ([source](https://math.mit.edu/~drew/FFFc42.txt)). `X1_42_moduli_check.m`: proof of Lemma 2.4 (the mod-5 model is X_1(42)/F_5, via the Tate normal form and deg j = 576). `X1_42_irreducibility_mod5.m`: absolute irreducibility of f mod 5. `X1_42_check_tw3.m`: confirms t = 1/y, w = x/y and Phi(t,w) = t^23 f(w/t, 1/t), and writes `X1_42_Phi.txt`. `X1_42_Phi.txt`: the defining polynomial Phi(t,w) of F_5(X_1(42)) (Appendix A.1). |
 | `automorphisms/` | `X1_42_autgroup.m`: computes and verifies the automorphisms, writes `X1_42_aut_F5.txt`. `X1_42_aut_load.m`: reload helpers. `X1_42_check_orbs.m`: permutations of the rational places. `aut_to_latex.py`, `X1_42_automorphisms.tex/.pdf`: explicit formulas (Appendix A). |
 | `orbit_search/` | Orbit-reduced search of Section 6 (pipeline below). |
 | `docs/` | `X1_42_orbit_computation.tex/.pdf`: notes on the orbit computation. |
