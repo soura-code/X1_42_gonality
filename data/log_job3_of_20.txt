@@ -1,0 +1,18 @@
+Job 3 of 20: group H8, rank 1 of 2, high degree 8, 1 low parts
+Loading "X1_42_split_lib.m"
+Rational places identified by their signatures.
+Degree 8: 48708 places, 24074 in this job's bucket class (1152 s)
+Divisors to test in this job: 24074
+  [3896s] tested 2000 of 24074, smallest degree so far 15
+  [7740s] tested 4000 of 24074, smallest degree so far 15
+  [11626s] tested 6000 of 24074, smallest degree so far 15
+  [15471s] tested 8000 of 24074, smallest degree so far 15
+  [19329s] tested 10000 of 24074, smallest degree so far 15
+  [23209s] tested 12000 of 24074, smallest degree so far 15
+  [27059s] tested 14000 of 24074, smallest degree so far 15
+  [30959s] tested 16000 of 24074, smallest degree so far 15
+  [34811s] tested 18000 of 24074, smallest degree so far 15
+  [38680s] tested 20000 of 24074, smallest degree so far 15
+  [42530s] tested 22000 of 24074, smallest degree so far 15
+  [46405s] tested 24000 of 24074, smallest degree so far 15
+==> COMPLETED: 24074 divisors, no function of degree <= 11 (smallest seen 15), 46548 s.

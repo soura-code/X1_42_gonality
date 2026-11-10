@@ -1,0 +1,21 @@
+Job 5 of 20: group H7, rank 1 of 3, high degree 7, 8 low parts
+Loading "X1_42_split_lib.m"
+Rational places identified by their signatures.
+Degree 2: 6 places, all 1 needed labels found (0 s)
+Degree 7: 11160 places, 3587 in this job's bucket class (334 s)
+Divisors to test in this job: 28696
+  [5711s] tested 2000 of 28696, smallest degree so far 17
+  [10986s] tested 4000 of 28696, smallest degree so far 17
+  [16143s] tested 6000 of 28696, smallest degree so far 17
+  [20936s] tested 8000 of 28696, smallest degree so far 17
+  [26080s] tested 10000 of 28696, smallest degree so far 17
+  [32224s] tested 12000 of 28696, smallest degree so far 17
+  [38440s] tested 14000 of 28696, smallest degree so far 17
+  [45076s] tested 16000 of 28696, smallest degree so far 17
+  [50419s] tested 18000 of 28696, smallest degree so far 17
+  [55831s] tested 20000 of 28696, smallest degree so far 17
+  [63522s] tested 22000 of 28696, smallest degree so far 17
+  [68474s] tested 24000 of 28696, smallest degree so far 17
+  [74568s] tested 26000 of 28696, smallest degree so far 17
+  [81032s] tested 28000 of 28696, smallest degree so far 17
+==> COMPLETED: 28696 divisors, no function of degree <= 11 (smallest seen 17), 83670 s.
