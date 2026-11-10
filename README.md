@@ -50,6 +50,8 @@ Run in `orbit_search/`, with `X1_42_aut_F5.txt` (from `automorphisms/X1_42_autgr
 5. **Verification of a finished run:** `python3 X1_42_split_check.py X1_42_split_d11`. Accepts the
    run only if every job reports COMPLETED, the kept places of each high degree add up to P_v,
    the bucket fingerprints agree, and the numbers of divisors tested add up to 743231.
+   The output of the run reported in the paper is in `data/search_outputs/`; to verify it, run
+   `python3 X1_42_split_check.py ../data/search_outputs` from `orbit_search/`.
 
 `X1_42_placeorder_test.m` / `run_placeorder.sh` is a diagnostic showing that the order in which
 Magma returns places is not reproducible between sessions; the orbit-reduced search is designed
