@@ -58,16 +58,16 @@ cp data/*.txt run/
 cd run
 ```
 
-The stored run of the paper is in `data/X1_42_split_d11/`. Copy it as well if you want to re-verify it (route A):
+The stored run of the paper is in `data/search_outputs/`. Copy it as well if you want to re-verify it (route A):
 
 ```
-cp -r ../data/X1_42_split_d11 .
+cp -r ../data/search_outputs .
 ```
 
 ### Route A: verify the stored run (no Magma needed, seconds)
 
 ```
-python3 X1_42_split_check.py X1_42_split_d11
+python3 X1_42_split_check.py search_outputs
 ```
 
 This reads `plan.txt` and the 20 files `status_job<k>_of_20.txt`. It accepts the run only if:
@@ -83,7 +83,7 @@ The last line must be
 ==> All 20 jobs COMPLETED, 743231 divisors tested = plan: no function of degree <= 11, hence gon_F5(X1(42)) >= 12.
 ```
 
-The expected output is saved in `data/X1_42_split_d11/split_check_output.txt`. The Magma logs `log_job<k>_of_20.txt` contain each job's place counts, fingerprints and timings.
+The Magma logs `log_job<k>_of_20.txt` in `data/search_outputs/` contain each job's place counts, fingerprints and timings.
 
 ### Route B: recompute everything
 
@@ -109,7 +109,7 @@ python3 aut_to_latex.py X1_42_aut_F5.txt --check
 **Step 3. Orbits of sigma_4 on the places of degree 1-5.**
 
 ```
-./run_orbits.sh               # 19 Magma jobs (default parts 1 1 1 4 12); merges the parts at the end
+bash run_orbits.sh            # 19 Magma jobs (default parts 1 1 1 4 12); merges the parts at the end
 magma -b X1_42_orbits_check.m
 ```
 
@@ -134,7 +134,7 @@ This writes `X1_42_rational_labels.txt`:
 python3 X1_42_split.py --njobs 20 --jobs9 2 --jobs8 2 --outdir X1_42_split_d11
 ```
 
-The script enumerates, for every partition of 9, the parts `E_<=5` that are lexicographically minimal in their `sigma_4`-orbit. It checks each count against Burnside's lemma, and writes `plan.txt`, `summary.txt` and the job files `job<k>_of_20.txt`. `summary.txt` must give a total of 743,231 divisors (Table 3 of the paper). The paper's run used 2 jobs for [9], 2 for [8,1], 3 for largest part 7, 3 for largest part 6 and 10 for the rest. Compare the `GROUP ... JOBS` lines of `plan.txt` with `data/X1_42_split_d11/plan.txt`.
+The script enumerates, for every partition of 9, the parts `E_<=5` that are lexicographically minimal in their `sigma_4`-orbit. It checks each count against Burnside's lemma, and writes `plan.txt`, `summary.txt` and the job files `job<k>_of_20.txt`. `summary.txt` must give a total of 743,231 divisors (Table 3 of the paper). The paper's run used 2 jobs for [9], 2 for [8,1], 3 for largest part 7, 3 for largest part 6 and 10 for the rest. Compare the `GROUP ... JOBS` lines of `plan.txt` with `data/search_outputs/plan.txt`.
 
 **Step 6. Running the jobs (about 577 CPU hours in total; the longest job took about 1.9 days).**
 
@@ -148,7 +148,7 @@ wait
 
 Each job recomputes the places it needs and their labels, and stops with an error unless every label it needs is found exactly once. It then tests its divisors and writes `status_job<k>_of_20.txt`. A degree-12 function that it finds goes to `hits_job<k>_of_20.txt`. A function of degree at most 11 would be written to `FOUND.txt`, which does not occur.
 
-`./run_split_search.sh 20 --jobs9 2 --jobs8 2` performs Steps 5-6 and the check of Step 7 in one command.
+`bash run_split_search.sh 20 --jobs9 2 --jobs8 2` performs Steps 5-6 and the check of Step 7 in one command.
 
 **Step 7. Verification.**
 
@@ -160,7 +160,7 @@ The last line must be the one shown in Route A.
 
 ### Diagnostic
 
-`./run_placeorder.sh` runs `X1_42_placeorder_test.m` in several sessions and compares the order in which Magma returns the places. Its outputs `placeorder_run<r>.txt` show that this order is not reproducible. This is why the search identifies places by buckets, labels and fingerprints rather than by position.
+`bash run_placeorder.sh` runs `X1_42_placeorder_test.m` in several sessions and compares the order in which Magma returns the places. Its outputs `placeorder_run<r>.txt` show that this order is not reproducible. This is why the search identifies places by buckets, labels and fingerprints rather than by position.
 
 ## Citation
 
