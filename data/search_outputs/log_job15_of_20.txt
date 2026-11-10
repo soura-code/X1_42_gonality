@@ -1,0 +1,24 @@
+Job 15 of 20: group LOW, rank 5 of 10, high degree 0, 30163 low parts
+Loading "X1_42_split_lib.m"
+Rational places identified by their signatures.
+Degree 2: 6 places, all 6 needed labels found (0 s)
+Degree 3: 8 places, all 8 needed labels found (1 s)
+Degree 4: 183 places, all 183 needed labels found (3 s)
+Degree 5: 648 places, all 54 needed labels found (15 s)
+Divisors to test in this job: 30163
+  [5528s] tested 2000 of 30163, smallest degree so far Infinity
+  [11568s] tested 4000 of 30163, smallest degree so far Infinity
+  [16976s] tested 6000 of 30163, smallest degree so far 21
+  [23790s] tested 8000 of 30163, smallest degree so far 21
+  [32023s] tested 10000 of 30163, smallest degree so far 18
+  [39608s] tested 12000 of 30163, smallest degree so far 18
+  [46720s] tested 14000 of 30163, smallest degree so far 18
+  [54965s] tested 16000 of 30163, smallest degree so far 18
+  [63525s] tested 18000 of 30163, smallest degree so far 18
+  [70991s] tested 20000 of 30163, smallest degree so far 18
+  [78943s] tested 22000 of 30163, smallest degree so far 17
+  [85590s] tested 24000 of 30163, smallest degree so far 17
+  [91206s] tested 26000 of 30163, smallest degree so far 17
+  [99886s] tested 28000 of 30163, smallest degree so far 12
+  [108898s] tested 30000 of 30163, smallest degree so far 12
+==> COMPLETED: 30163 divisors, no function of degree <= 11 (smallest seen 12), 109410 s.

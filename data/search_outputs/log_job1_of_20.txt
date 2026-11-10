@@ -1,0 +1,59 @@
+Job 1 of 20: group H9, rank 1 of 2, high degree 9, 1 low parts
+Loading "X1_42_split_lib.m"
+Rational places identified by their signatures.
+Degree 9: 214384 places, 107158 in this job's bucket class (7786 s)
+Divisors to test in this job: 107158
+  [4277s] tested 2000 of 107158, smallest degree so far Infinity
+  [8997s] tested 4000 of 107158, smallest degree so far Infinity
+  [13705s] tested 6000 of 107158, smallest degree so far 19
+  [16988s] tested 8000 of 107158, smallest degree so far 19
+  [20092s] tested 10000 of 107158, smallest degree so far 19
+  [22989s] tested 12000 of 107158, smallest degree so far 19
+  [25830s] tested 14000 of 107158, smallest degree so far 19
+  [28652s] tested 16000 of 107158, smallest degree so far 19
+  [31489s] tested 18000 of 107158, smallest degree so far 19
+  [34320s] tested 20000 of 107158, smallest degree so far 19
+  [37148s] tested 22000 of 107158, smallest degree so far 19
+  [39966s] tested 24000 of 107158, smallest degree so far 19
+  [42783s] tested 26000 of 107158, smallest degree so far 19
+  [45652s] tested 28000 of 107158, smallest degree so far 17
+  [48491s] tested 30000 of 107158, smallest degree so far 17
+  [51328s] tested 32000 of 107158, smallest degree so far 17
+  [54181s] tested 34000 of 107158, smallest degree so far 17
+  [57449s] tested 36000 of 107158, smallest degree so far 17
+  [62258s] tested 38000 of 107158, smallest degree so far 17
+  [65878s] tested 40000 of 107158, smallest degree so far 17
+  [68871s] tested 42000 of 107158, smallest degree so far 17
+  [72659s] tested 44000 of 107158, smallest degree so far 17
+  [76237s] tested 46000 of 107158, smallest degree so far 17
+  [79322s] tested 48000 of 107158, smallest degree so far 17
+  [82129s] tested 50000 of 107158, smallest degree so far 17
+  [84927s] tested 52000 of 107158, smallest degree so far 17
+  [87958s] tested 54000 of 107158, smallest degree so far 17
+  [90727s] tested 56000 of 107158, smallest degree so far 17
+  [93480s] tested 58000 of 107158, smallest degree so far 17
+  [96292s] tested 60000 of 107158, smallest degree so far 17
+  [98915s] tested 62000 of 107158, smallest degree so far 17
+  [101598s] tested 64000 of 107158, smallest degree so far 17
+  [104241s] tested 66000 of 107158, smallest degree so far 17
+  [106877s] tested 68000 of 107158, smallest degree so far 17
+  [109493s] tested 70000 of 107158, smallest degree so far 17
+  [112106s] tested 72000 of 107158, smallest degree so far 17
+  [114731s] tested 74000 of 107158, smallest degree so far 17
+  [117376s] tested 76000 of 107158, smallest degree so far 17
+  [120020s] tested 78000 of 107158, smallest degree so far 17
+  [122648s] tested 80000 of 107158, smallest degree so far 17
+  [125257s] tested 82000 of 107158, smallest degree so far 17
+  [127850s] tested 84000 of 107158, smallest degree so far 17
+  [130482s] tested 86000 of 107158, smallest degree so far 17
+  [133082s] tested 88000 of 107158, smallest degree so far 17
+  [135714s] tested 90000 of 107158, smallest degree so far 17
+  [138352s] tested 92000 of 107158, smallest degree so far 17
+  [140980s] tested 94000 of 107158, smallest degree so far 17
+  [143596s] tested 96000 of 107158, smallest degree so far 17
+  [146221s] tested 98000 of 107158, smallest degree so far 17
+  [148855s] tested 100000 of 107158, smallest degree so far 17
+  [151504s] tested 102000 of 107158, smallest degree so far 17
+  [154122s] tested 104000 of 107158, smallest degree so far 17
+  [156764s] tested 106000 of 107158, smallest degree so far 17
+==> COMPLETED: 107158 divisors, no function of degree <= 11 (smallest seen 17), 158280 s.

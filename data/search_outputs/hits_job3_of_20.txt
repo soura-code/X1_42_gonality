@@ -1,0 +1,2 @@
+Functions of degree <= 12 seen in job 3 of 20 (group H8, rank 1 of 2)
+
