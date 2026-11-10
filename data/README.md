@@ -27,7 +27,3 @@ produced by `orbit_search/run_split_search.sh 20`.
 - `log_job<i>_of_20.txt` — the log of job i.
 
 To verify the run, from `orbit_search/`: `python3 X1_42_split_check.py ../data/search_outputs`.
-
-## To be added (not yet uploaded)
-
-- Output of `X1_42_split_check.py` for this run.
