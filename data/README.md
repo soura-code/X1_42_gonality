@@ -6,6 +6,7 @@
   The orbit-search scripts read this file; copy it into `orbit_search/` before running them (see the main README).
 - `X1_42_aut_F5_readable.txt` — the same twelve automorphisms in human-readable form.
 - `X1_42_rational_labels.txt` — output of `orbit_search/X1_42_rational_labels.m`.
+- `X1_42_moduli_check.txt` — output of `model/X1_42_moduli_check.m` (all checks pass; about 42 s).
 - `X1_42_orbits_d2.txt`, `X1_42_orbits_d3.txt`, `X1_42_orbits_d4.txt`, `X1_42_orbits_d5.txt` —
   the orbits of `<sigma_4>` on the places of degree 2, 3, 4 and 5.
 - `X1_42_orbit_reps_d2.txt`, `X1_42_orbit_reps_d3.txt`, `X1_42_orbit_reps_d4.txt`, `X1_42_orbit_reps_d5.txt` —
@@ -30,4 +31,3 @@ To verify the run, from `orbit_search/`: `python3 X1_42_split_check.py ../data/s
 ## To be added (not yet uploaded)
 
 - Output of `X1_42_split_check.py` for this run.
-- Output of `model/X1_42_moduli_check.m`.
