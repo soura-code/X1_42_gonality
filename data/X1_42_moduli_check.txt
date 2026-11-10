@@ -1,0 +1,5 @@
+A: exact constant field F_5, genus 25  (8.050 s)
+B: E/F is an elliptic curve and (0,0) has exact order 42  (8.370 s)
+B': inverse map recovers x, y; F = F_5(b,c)  (8.400 s)
+C: deg j(E) = 576  (41.930 s)
+ALL CHECKS PASSED: F is the function field of X_1(42) over F_5.
