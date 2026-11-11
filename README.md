@@ -1,7 +1,7 @@
 # The Q-gonality of X_1(42) is 12 — code and data
 
 Companion repository for the paper *The Q-gonality of X_1(42) is 12* by Sourajyoti Maiti
-(University of Connecticut). It contains the model of X_1(42) over F_5, the checks that
+(University of Connecticut), [arXiv:2611.13155](https://arxiv.org/abs/2611.13155). It contains the model of X_1(42) over F_5, the checks that
 identify it with X_1(42)_{F_5}, the automorphism computation, and the orbit-reduced
 degree-11 search with its verifier.
 
@@ -164,4 +164,7 @@ The last line must be the one shown in Route A.
 
 ## Citation
 
-If you use this code, please cite the paper (reference to be added).
+If you use this code, please cite the paper:
+
+Sourajyoti Maiti, *The Q-gonality of X_1(42) is 12*, arXiv:2611.13155 [math.NT], 2026.
+<https://arxiv.org/abs/2611.13155>
